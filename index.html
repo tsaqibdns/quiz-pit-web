@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderlust Blog - Jelajahi Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Wonderlust Blog</h1>
+    </header>
+    <main>
+        <div class="main">
+            <div class="content">
+                <div class="image-container">
+                    <img id="articleImage" src="" alt="" style="max-height: 250px;">
+                </div>
+                <div id="articleContent">
+                    <h2>Selamat datang di Wonderlust Blog!</h2>
+                    <p>Temukan tempat wisata rekreasi, keindahan pantai, dan gunung yang menakjubkan di sini.</p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h2>Kategori</h2>
+                <ul id="categoryList">
+                    <li>
+                        <a href="#" onclick="showArticles('rekreasi')">Rekreasi</a>
+                        <ul id="rekreasiList"></ul>
+                    </li>
+                    <li>
+                        <a href="#" onclick="showArticles('pantai')">Pantai</a>
+                        <ul id="pantaiList"></ul>
+                    </li>
+                    <li>
+                        <a href="#" onclick="showArticles('gunung')">Gunung</a>
+                        <ul id="gunungList"></ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h5>&copy; 2024 Wonderlust Blog. All rights reserved.</h5>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+
+</html>
